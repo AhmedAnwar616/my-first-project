@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: aquamarine;
+    padding: 10px;
+
+}
+
+.parent div {
+    background-color: gray;
+    float: left;
+    width: calc(96% / 3);
+    margin-left: 1%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.clear {
+    clear: both;
+
+}
